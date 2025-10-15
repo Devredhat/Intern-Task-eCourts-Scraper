@@ -67,7 +67,7 @@ lxml==4.9.3
 🎯 Usage Examples
 🔹 Basic Case Search
 
-# Search by CNR number
+```# Search by CNR number
 python ecourts_scraper.py MHAU030151912016
 
 # Check if case is listed today
@@ -75,10 +75,11 @@ python ecourts_scraper.py --today MHAU030151912016
 
 # Check if case is listed tomorrow
 python ecourts_scraper.py --tomorrow MHAU030151912016
+```
 
 🔹 Advanced Search Options
 
-# Search by case details
+```# Search by case details
 python ecourts_scraper.py --today MHAU03 0151912 2016
 
 # Download cause list (manual)
@@ -86,14 +87,16 @@ python ecourts_scraper.py --causelist
 
 # Automated cause list download
 python ecourts_scraper.py --causelist --state "Maharashtra" --district "Mumbai" --court "City Civil Court"
+```
 
 📁 Project Structure
-
+```
 ecourts-scraper/
 ├── 📄 ecourts_scraper.py     # Main scraper class
 ├── 📋 requirements.txt       # Python dependencies
 ├── 📖 README.md              # Project documentation
 └── 📁 downloads/             # Generated files
+```
 
 🔧 Technical Features
 🎨 PDF Report Generation
@@ -118,6 +121,7 @@ Case Sensitivity: Correct handling of uppercase/lowercase
 
 📊 Data Extraction Example
 
+```
 {
   "case_details": {
     "cnr_number": "MHAU030151912016",
@@ -132,6 +136,7 @@ Case Sensitivity: Correct handling of uppercase/lowercase
     "previous_dates": ["2023-12-01", "2023-11-15"]
   }
 }
+```
 
 🐛 Troubleshooting Guide
 
@@ -194,5 +199,7 @@ Report Bug •
 Request Feature •
 View Demo
 
-</div> ```
+</div>
+```
+
 
