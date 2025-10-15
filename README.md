@@ -177,7 +177,7 @@ First Use this :
 python ecourts_scraper.py --today MHAU030151912016
 ```
 IMG output: 
-https://drive.google.com/drive-viewer/AKGpihZLfo4UHP_ant-pYV1sn_9afxTJWOyBBYlQPczdLiuXhrnNy-2izNAJPY9aa2ubwp5_yRV5ivfqxFmnNuiswCNUbk-3Yr8fEJ0=w1920-h922-rw-v1
+https://drive.google.com/file/d/1ySwAqrsfr2LUor181Rdyb40tQdDb7Lfz/view?usp=sharing
 
 Second : 
 it will open the chrome browser 
@@ -214,5 +214,6 @@ it will Generate the PDF and Json file in that folder
 https://drive.google.com/drive-viewer/AKGpihbUHkm9UhgqUOO2n2h2LT8Y9V9LKon0hYb0kM_3zM8kKuymHcHFVXTGO78FPsPpY_oU1A7KMydYHkbZpYlQhfzNmu0lHxrvSg=w1920-h922-rw-v1?auditContext=forDisplay
 
 https://drive.google.com/drive-viewer/AKGpihY7wvwz54KBNFRXqd_z8dSQ04-IK-LiB9uMBWjypTYVEC0qeLbSaV6TnHp64sXBrlECJtmX5WXflCmHQGDHTwUN6fu8jQwjeuI=w1920-h922
+
 
 
