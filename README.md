@@ -56,12 +56,13 @@ pip install -r requirements.txt
 
 📋 Requirements
 
-selenium==4.15.0
+```selenium==4.15.0
 beautifulsoup4==4.12.2
 webdriver-manager==4.0.1
 reportlab==4.0.4
 requests==2.31.0
 lxml==4.9.3
+```
 
 🎯 Usage Examples
 🔹 Basic Case Search
@@ -194,3 +195,4 @@ Request Feature •
 View Demo
 
 </div> ```
+
