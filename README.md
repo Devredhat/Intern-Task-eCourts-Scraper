@@ -177,9 +177,6 @@ First Use this :
 python ecourts_scraper.py --today MHAU030151912016
 ```
 IMG output: 
-# Example Project
-
-Here is an image from Google Drive:
 
 ![Image](https://drive.google.com/uc?export=view&id=1ySwAqrsfr2LUor181Rdyb40tQdDb7Lfz)
 
@@ -188,38 +185,40 @@ Here is an image from Google Drive:
 Second : 
 it will open the chrome browser 
 
-https://drive.google.com/drive-viewer/AKGpihawPo9ia2VuljWG04EVAXHapSE-s1QMkK2oKlz0sQ39BF-4F5d6UADDM1qoaSoP_MR8PIfjBRYeKF2iNiFJ9MGVdoisXBbDTQ=w1920-h922-rw-v1?auditContext=forDisplay
+![Image](https://drive.google.com/uc?export=view&id=11-QId3hjo7QzeCRhjUmA-ThPInwPTF7e)
+
 
 third : 
 Dont submit the captch in the website you need to copy that captcha in the terminal and past it 
 
-https://drive.google.com/drive-viewer/AKGpihYvr_eYA_uvVWbDgqxnk5_VlVF1EhpDBtmQq30rag4lqRhl8jEzKOaIAA5XjWNksWfkQaN5kUWVsqXQ-gyBOyjNwEOY1MQsLSA=w1920-h922
+![Image](https://drive.google.com/uc?export=view&id=1oC-U6o81lfW_tnTR2kTrqO2HrjMPiJ8t)
+
 
 Fourth  : 
 
 put that captcha in the terminal not in the website 
 
-https://drive.google.com/drive-viewer/AKGpihbh4yUhE8BfZfbIayheGQk0lCJv7ieLg42qtF_R1JNb194ZIxiiZ6qUHCp1A-9Vt1HAXVteuIr14pW02KNj5cpC7RNVrylIkG4=w1920-h922?auditContext=forDisplay
+![Image](https://drive.google.com/uc?export=view&id=1NziMn1NaYwrHC1XWkoer6qkVEkAXIPEA)
 
 Fifth :
 
 when you click in the terminal so autometicly i the web broser in the website it will put captch and load the data 
 
-https://drive.google.com/drive-viewer/AKGpihZGdekmlxES4vwfpn1tQyES10pm2_KrvUevqknwzr7lgGrhm1MMnpsikO7flrnyNcWsFUYxasARRTzxAAkkxdLFl_qPsuew_g=w1920-h922-rw-v1
+![Image](https://drive.google.com/uc?export=view&id=1KVAPnPUGK3IaQD09YrbBzZ72z9AJMPPD)
 
 Sixth : 
 
 And in that website show the data and also in the terminal you will see that whole data 
 
-https://drive.google.com/drive-viewer/AKGpihbbnMO1LTPcaMJ4-nuKelRCL6-YqRV_Yk34QNnd8b9Hwgy8IVBjB6LS14LC4piBQej5M0uC3kPxazQV8SiJTfCr7YHnfLitWpQ=w1920-h922-rw-v1
+![Image](https://drive.google.com/uc?export=view&id=1BAUYZVNzr0A9s2nt3QSKDTxclkLGk2Ce)
 
 sevnth : 
 
 it will Generate the PDF and Json file in that folder
 
-https://drive.google.com/drive-viewer/AKGpihbUHkm9UhgqUOO2n2h2LT8Y9V9LKon0hYb0kM_3zM8kKuymHcHFVXTGO78FPsPpY_oU1A7KMydYHkbZpYlQhfzNmu0lHxrvSg=w1920-h922-rw-v1?auditContext=forDisplay
+![Image](https://drive.google.com/uc?export=view&id=1qXQ4RGygm6DL_q2ruTIF_mZOjHcu53Va)
 
-https://drive.google.com/drive-viewer/AKGpihY7wvwz54KBNFRXqd_z8dSQ04-IK-LiB9uMBWjypTYVEC0qeLbSaV6TnHp64sXBrlECJtmX5WXflCmHQGDHTwUN6fu8jQwjeuI=w1920-h922
+![Image](https://drive.google.com/uc?export=view&id=1E8J--AJzAfwSJa3KHJwZvywfDjagzoHx)
 
 
 
