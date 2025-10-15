@@ -1,0 +1,231 @@
+🏛️ eCourts India Case Scraper & Analyzer
+https://img.shields.io/badge/python-3.7%252B-blue.svg
+https://img.shields.io/badge/license-MIT-green.svg
+https://img.shields.io/badge/selenium-4.15.0-brightgreen.svg
+https://img.shields.io/badge/Open%2520Source-%E2%9C%93-success.svg
+
+A powerful Python automation tool for fetching case details, checking hearing dates, and generating professional PDF reports from the eCourts India portal.
+
+https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&auto=format&fit=crop&w=1000&q=80
+
+✨ Key Features
+🔍 Advanced Case Management
+Dual Search Modes: Search by 16-digit CNR numbers or case details
+
+Real-time Hearing Checks: Verify cases listed for today or tomorrow
+
+Comprehensive Data Extraction: Complete case history and party information
+
+📊 Professional Reporting
+Automated PDF Generation: Professional court-ready documents
+
+Smart Data Presentation: Table-based layouts with text wrapping
+
+Court-Specific Styling: Custom formatting for different jurisdictions
+
+⚡ Automation & Efficiency
+CAPTCHA Handling: Intelligent retry logic with manual input
+
+Cross-Platform: Works on Windows, macOS, and Linux
+
+Batch Processing: Handle multiple cases efficiently
+
+🚀 Quick Start
+Prerequisites
+Python 3.7 or higher
+
+Google Chrome browser
+
+Internet connection
+
+Installation
+Clone the repository
+
+bash
+git clone https://github.com/yourusername/ecourts-scraper.git
+cd ecourts-scraper
+Install dependencies
+
+bash
+pip install -r requirements.txt
+📋 Requirements
+txt
+selenium==4.15.0
+beautifulsoup4==4.12.2
+webdriver-manager==4.0.1
+reportlab==4.0.4
+requests==2.31.0
+lxml==4.9.3
+🎯 Usage Examples
+Basic Case Search
+bash
+# Search by CNR number
+python ecourts_scraper.py MHAU030151912016
+
+# Check if case is listed today
+python ecourts_scraper.py --today MHAU030151912016
+
+# Check if case is listed tomorrow
+python ecourts_scraper.py --tomorrow MHAU030151912016
+Advanced Search Options
+bash
+# Search by case details
+python ecourts_scraper.py --today MHAU03 0151912 2016
+
+# Download cause list (manual mode)
+python ecourts_scraper.py --causelist
+
+# Automated cause list download
+python ecourts_scraper.py --causelist --state "Maharashtra" --district "Mumbai" --court "City Civil Court"
+📁 Project Structure
+text
+ecourts-scraper/
+├── 📄 ecourts_scraper.py     # Main scraper class
+├── 📋 requirements.txt        # Python dependencies
+├── 📖 README.md              # Project documentation
+└── 📁 downloads/             # Generated files
+    ├── 📄 case_*.pdf         # Case detail PDF reports
+    ├── 📄 cause_list_*.pdf   # Cause list PDFs
+    └── 📄 case_*.json        # Case data in JSON format
+🔧 Technical Features
+🎨 PDF Report Generation
+Professional Formatting: Court-appropriate document styling
+
+Dynamic Content Handling: Smart text wrapping for lengthy content
+
+Security Features: Confidential watermarks and timestamps
+
+Structured Layout: Table-based data presentation
+
+🔄 CAPTCHA Management
+User-Friendly Interface: Clear CAPTCHA image display
+
+Retry Logic: Automatic retry on invalid entries
+
+Attempt Limiting: Maximum 3 attempts per search
+
+Case Sensitivity: Proper handling of CAPTCHA cases
+
+📊 Data Extraction
+python
+# Comprehensive case data includes:
+- Case details and history
+- Party information (petitioner/respondent)
+- Hearing dates and next listings
+- Court and judge details
+- Case status and current stage
+🛠️ Configuration & Customization
+Automatic Setup
+The script automatically handles:
+
+✅ Chrome WebDriver installation
+
+✅ Downloads folder creation
+
+✅ Timestamped filename generation
+
+✅ Session management
+
+Manual Configuration Options
+Custom output directories
+
+Specific court jurisdictions
+
+Date range configurations
+
+Report template customization
+
+📸 Sample Output
+PDF Report Features
+Header Section: Case number and court details
+
+Information Tables: Structured data presentation
+
+Hearing Schedule: Upcoming dates and history
+
+Metadata Footer: Generation timestamp and search parameters
+
+JSON Data Structure
+json
+{
+  "case_details": {
+    "cnr_number": "MHAU030151912016",
+    "filing_date": "2016-01-15",
+    "registration_date": "2016-01-20",
+    "case_status": "Pending",
+    "court_number": "Court Room 12"
+  },
+  "hearing_information": {
+    "next_date": "2024-01-15",
+    "purpose": "Hearing",
+    "previous_dates": ["2023-12-01", "2023-11-15"]
+  }
+}
+🐛 Troubleshooting Guide
+Common Issues & Solutions
+Issue	Solution
+WebDriver Errors	Update Chrome, check internet connection
+CAPTCHA Failures	Enter carefully (case-sensitive), wait for image load
+No Results Found	Verify CNR format (16 chars), check jurisdiction
+PDF Generation	Ensure reportlab installed, check file permissions
+Performance Tips
+Use stable internet connection
+
+Avoid peak hours for better response times
+
+Clear browser cache periodically
+
+Update dependencies regularly
+
+⚖️ Legal Disclaimer
+Important: This tool is for informational purposes only. Users are responsible for:
+
+✅ Complying with eCourts India terms of service
+
+✅ Respecting rate limits and server load
+
+✅ Verifying official court records for legal proceedings
+
+✅ Ensuring appropriate use case compliance
+
+🤝 Contributing
+We welcome contributions! Please:
+
+🍴 Fork the repository
+
+🌿 Create a feature branch
+
+💻 Commit your changes
+
+📤 Push to the branch
+
+🔄 Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🆘 Support & Resources
+Documentation
+📚 Full Documentation
+
+🐛 Issue Tracker
+
+💡 Examples
+
+Getting Help
+Check the troubleshooting section above
+
+Review closed GitHub issues
+
+Create a new issue with detailed description
+
+<div align="center">
+⭐ Star this repo if you find it helpful!
+
+Built with ❤️ for the Indian legal community
+
+Report Bug •
+Request Feature •
+View Demo
+
+</div>
