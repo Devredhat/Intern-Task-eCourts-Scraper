@@ -47,7 +47,7 @@ It streamlines case management for lawyers, researchers, and legal analysts thro
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ecourts-scraper.git
+git clone https://github.com/Devredhat/Intern-Task-eCourts-Scraper.git
 cd ecourts-scraper
 
 # Install dependencies
@@ -168,5 +168,6 @@ Verifying official court records before legal use
 
 🤝 Contributing
 We welcome contributions from the open-source community!
+
 
 
