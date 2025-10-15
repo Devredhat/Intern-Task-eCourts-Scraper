@@ -66,8 +66,8 @@ lxml==4.9.3
 
 🎯 Usage Examples (Recommended)
 
-```🔹 Basic Case Search
-```
+🔹 Basic Case Search
+
 ```# Search by CNR number
 python ecourts_scraper.py MHAU030151912016
 
@@ -169,6 +169,7 @@ Verifying official court records before legal use
 
 🤝 Contributing
 We welcome contributions from the open-source community!
+
 
 
 
