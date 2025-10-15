@@ -52,8 +52,10 @@ cd ecourts-scraper
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
-### 📋 Requirements
+📋 Requirements
+
 selenium==4.15.0
 beautifulsoup4==4.12.2
 webdriver-manager==4.0.1
@@ -61,8 +63,9 @@ reportlab==4.0.4
 requests==2.31.0
 lxml==4.9.3
 
-##🎯 Usage Examples
-###🔹 Basic Case Search
+🎯 Usage Examples
+🔹 Basic Case Search
+
 # Search by CNR number
 python ecourts_scraper.py MHAU030151912016
 
@@ -72,7 +75,8 @@ python ecourts_scraper.py --today MHAU030151912016
 # Check if case is listed tomorrow
 python ecourts_scraper.py --tomorrow MHAU030151912016
 
-##🔹 Advanced Search Options
+🔹 Advanced Search Options
+
 # Search by case details
 python ecourts_scraper.py --today MHAU03 0151912 2016
 
@@ -82,8 +86,8 @@ python ecourts_scraper.py --causelist
 # Automated cause list download
 python ecourts_scraper.py --causelist --state "Maharashtra" --district "Mumbai" --court "City Civil Court"
 
+📁 Project Structure
 
-##📁 Project Structure
 ecourts-scraper/
 ├── 📄 ecourts_scraper.py     # Main scraper class
 ├── 📋 requirements.txt       # Python dependencies
@@ -92,7 +96,6 @@ ecourts-scraper/
 
 🔧 Technical Features
 🎨 PDF Report Generation
-
 Professional Formatting: Court-appropriate document layout
 
 Dynamic Content Handling: Smart text wrapping for long text
@@ -102,7 +105,6 @@ Security Features: Confidential watermarks and timestamps
 Structured Layout: Table-based data representation
 
 🔄 CAPTCHA Management
-
 User-Friendly Interface: Clear CAPTCHA display
 
 Retry Logic: Auto-retry on invalid inputs
@@ -111,7 +113,10 @@ Attempt Limiting: 3 attempts per search
 
 Case Sensitivity: Correct handling of uppercase/lowercase
 
+
+
 📊 Data Extraction Example
+
 {
   "case_details": {
     "cnr_number": "MHAU030151912016",
@@ -128,6 +133,8 @@ Case Sensitivity: Correct handling of uppercase/lowercase
 }
 
 🐛 Troubleshooting Guide
+
+
 Issue	Solution
 WebDriver Errors	Update Chrome and check internet connection
 CAPTCHA Failures	Enter carefully (case-sensitive)
@@ -135,7 +142,6 @@ No Results Found	Verify CNR format (16 chars), check jurisdiction
 PDF Generation Issues	Ensure reportlab is installed and file permissions are correct
 
 💡 Tips:
-
 Use stable internet
 
 Avoid peak hours
@@ -145,18 +151,16 @@ Clear browser cache periodically
 Keep dependencies updated
 
 ⚖️ Legal Disclaimer
-
 ⚠️ This tool is for informational and research purposes only.
 Users are solely responsible for:
 
-Complying with eCourts India’s terms of service
+Complying with eCourts India's terms of service
 
 Respecting rate limits and avoiding excessive requests
 
 Verifying official court records before legal use
 
 🤝 Contributing
-
 We welcome contributions from the open-source community!
 
 🍴 Fork the repository
@@ -169,27 +173,24 @@ We welcome contributions from the open-source community!
 
 🔄 Open a Pull Request
 
-📄 License
 
-This project is licensed under the MIT License — see the LICENSE
- file for details.
+
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
 🆘 Support & Resources
-
 📚 Full Documentation
 
 🐛 Issue Tracker
 
 💡 Examples
 
-<div align="center">
-
+```<div align="center">
 ⭐ Star this repo if you find it helpful! ⭐
 Built with ❤️ for the Indian legal community
 
-Report Bug
- • Request Feature
- • View Demo
+Report Bug •
+Request Feature •
+View Demo
 
 </div> ```
-
