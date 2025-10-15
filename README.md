@@ -169,37 +169,4 @@ Verifying official court records before legal use
 🤝 Contributing
 We welcome contributions from the open-source community!
 
-🍴 Fork the repository
-
-🌿 Create a feature branch
-
-💻 Commit your changes
-
-📤 Push to your branch
-
-🔄 Open a Pull Request
-
-
-
-📄 License
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-🆘 Support & Resources
-📚 Full Documentation
-
-🐛 Issue Tracker
-
-💡 Examples
-
-```<div align="center">
-⭐ Star this repo if you find it helpful! ⭐
-Built with ❤️ for the Indian legal community
-
-Report Bug •
-Request Feature •
-View Demo
-
-</div>
-```
-
 
